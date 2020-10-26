@@ -14,25 +14,21 @@ export default class Resume extends Component {
             <div className="nine columns main-col">
               <div className="row item">
                 <div className="twelve columns">
-                  <h3>University of Life</h3>
-                  <p className="info">Master in Graphic Design <span>•</span> <em className="date">April 2007</em></p>
+                <h3>Kenzie Academy</h3>
+                  <p className="info">Certificate in FrontEnd Web Applications <span>&bull;</span> <em className="date">April 2020</em></p>
+
                   <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                    ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                    Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
+                  Dived deep into HTML, CSS and Javascript. Covered FrontEnd frameworks including React and Redux. Program was project
+                  based with a capstone project done during the last quarter. 
                   </p>
                 </div>
               </div> {/* item end */}
               <div className="row item">
                 <div className="twelve columns">
-                  <h3>School of Cool Designers</h3>
-                  <p className="info">B.A. Degree in Graphic Design <span>•</span> <em className="date">March 2003</em></p>
+                  <h3>Coding Dojo</h3>
+                  <p className="info">Fullstack Web Developer<span>&bull;</span> <em className="date">July 2019</em></p>
                   <p>
-                    This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                    Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                    nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                    ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
+                  Completed two full stack technologies with the use of C#, and python as backend tools while employing CSS, HTML, and javasctipt for the front end.
                   </p>
                 </div>
               </div> {/* item end */}
@@ -47,25 +43,20 @@ export default class Resume extends Component {
             <div className="nine columns main-col">
               <div className="row item">
                 <div className="twelve columns">
-                  <h3>Awesome Design Studio</h3>
-                  <p className="info">Senior UX Designer <span>•</span> <em className="date">March 2010 - Present</em></p>
+                  <h3>Apprenticeship</h3>
+                  <p className="info">Developer<span>•</span> <em className="date">May 2020 - Present</em></p>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                    ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                    Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
+                  Developing Haystack App-a software and packages search tool built for developers. Leads and guides the backend team using agile methodology to 
+                  design and build backend functionality of the app
                   </p>
                 </div>
               </div> {/* item end */}
               <div className="row item">
                 <div className="twelve columns">
-                  <h3>Super Cool Studio</h3>
-                  <p className="info">UX Designer <span>•</span> <em className="date">March 2007 - February 2010</em></p>
+                  <h3>Sogeti</h3>
+                  <p className="info">Associate Consultant <span>•</span> <em className="date">Feb 2019 - October 2019</em></p>
                   <p>
-                    This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                    Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                    nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                    ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
+                  Member of Microsoft Volume Licensing Team working as a licensing specialist and liaising clients with customer executives while preparing sale contracts.
                   </p>
                 </div>
               </div> {/* item end */}
@@ -78,26 +69,26 @@ export default class Resume extends Component {
               <h1><span>Skills</span></h1>
             </div>
             <div className="nine columns main-col">
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                voluptatem sequi nesciunt.
+              <p>Here are some of my top programming skills
               </p>
               <div className="bars">
                 <ul className="skills">
-                  <li><span className="bar-expand photoshop" /><em>Photoshop</em></li>
-                  <li><span className="bar-expand illustrator" /><em>Illustrator</em></li>
-                  <li><span className="bar-expand wordpress" /><em>Wordpress</em></li>
-                  <li><span className="bar-expand css" /><em>CSS</em></li>
-                  <li><span className="bar-expand html5" /><em>HTML5</em></li>
+                  <li><span className="bar-expand html5" /><em>C#</em></li>
+                  <li><span className="bar-expand photoshop" /><em>HTML5</em></li>
+                  <li><span className="bar-expand illustrator" /><em>CSS</em></li>
+                  <li><span className="bar-expand wordpress" /><em>Python</em></li>
+                  <li><span className="bar-expand html5" /><em>Javascript</em></li>
+                  <li><span className="bar-expand css" /><em>.NetCore</em></li>
+                  <li><span className="bar-expand photoshop" /><em>React</em></li>
+                  <li><span className="bar-expand photoshop" /><em>Redux</em></li>
+                  <li><span className="bar-expand html5" /><em>SQL</em></li>
                   <li><span className="bar-expand jquery" /><em>jQuery</em></li>
                 </ul>
               </div>{/* end skill-bars */}
             </div> {/* main-col end */}
           </div> {/* End skills */}
         </section> {/* Resume Section End*/}
-        {/* Portfolio Section
-   ================================================== */}
+      
         <section id="portfolio">
           <div className="row">
             <div className="twelve columns collapsed">
@@ -105,116 +96,37 @@ export default class Resume extends Component {
               {/* portfolio-wrapper */}
               <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
                 <div className="columns portfolio-item">
-                  <div className="item-wrap">
-                    <a href="#modal-01" title>
-                      <img alt="" src="images/portfolio/coffee.jpg" />
+                    <a href="http://3.19.242.145/">
+                      <img alt="" src="images/portfolio/ecommerce.jpg" />
                       <div className="overlay">
-                        <div className="portfolio-item-meta">
-                          <h5>Coffee</h5>
-                          <p>Illustrration</p>
+                        <div id="text">
+                          <h5>Ecommerce</h5>
+                          <p>An e-commerce app of sorts with inventory management and user shopping experience allowing viewing, adding to cart, making orders and making payment for orders. Built using C#, .NetCore, Bootstrap, MySql, AWS, Nginx, and Stripe API.</p>
                         </div>
                       </div>
-                      <div className="link-icon"><i className="icon-plus" /></div>
                     </a>
-                  </div>
                 </div> {/* item end */}
                 <div className="columns portfolio-item">
-                  <div className="item-wrap">
-                    <a href="#modal-02" title>
-                      <img alt="" src="images/portfolio/console.jpg" />
+                  <a href="http://3.16.187.129/">
+                      <img alt="" src="images/portfolio/social3.png" />
                       <div className="overlay">
-                        <div className="portfolio-item-meta">
-                          <h5>Console</h5>
-                          <p>Web Development</p>
+                        <div id="text">
+                          <h5>UserDashboard</h5>
+                          <p>This app allows users to write posts to other users, view posts and comments from other users as well as comment on them. Built using MySql, .NetCore 3.1, Twitter Bootstrap, Identity for user management, C#, and Entity Framework Core.</p>
                         </div>
                       </div>
-                      <div className="link-icon"><i className="icon-plus" /></div>
                     </a>
-                  </div>
                 </div> {/* item end */}
                 <div className="columns portfolio-item">
-                  <div className="item-wrap">
-                    <a href="#modal-03" title>
-                      <img alt="" src="images/portfolio/judah.jpg" />
-                      <div className="overlay">
-                        <div className="portfolio-item-meta">
-                          <h5>Judah</h5>
-                          <p>Webdesign</p>
-                        </div>
-                      </div>
-                      <div className="link-icon"><i className="icon-plus" /></div>
-                    </a>
-                  </div>
-                </div> {/* item end */}
-                <div className="columns portfolio-item">
-                  <div className="item-wrap">
-                    <a href="#modal-04" title>
-                      <img alt="" src="images/portfolio/into-the-light.jpg" />
-                      <div className="overlay">
-                        <div className="portfolio-item-meta">
-                          <h5>Into The Light</h5>
-                          <p>Photography</p>
-                        </div>
-                      </div>
-                      <div className="link-icon"><i className="icon-plus" /></div>
-                    </a>
-                  </div>
-                </div> {/* item end */}
-                <div className="columns portfolio-item">
-                  <div className="item-wrap">
-                    <a href="#modal-05" title>
-                      <img alt="" src="images/portfolio/farmerboy.jpg" />
-                      <div className="overlay">
-                        <div className="portfolio-item-meta">
-                          <h5>Farmer Boy</h5>
-                          <p>Branding</p>
-                        </div>
-                      </div>
-                      <div className="link-icon"><i className="icon-plus" /></div>
-                    </a>
-                  </div>
-                </div> {/* item end */}
-                <div className="columns portfolio-item">
-                  <div className="item-wrap">
-                    <a href="#modal-06" title>
+                  <a href="https://katatonik.gitlab.io/assessment---kwitter-frontend/">
                       <img alt="" src="images/portfolio/girl.jpg" />
                       <div className="overlay">
-                        <div className="portfolio-item-meta">
-                          <h5>Girl</h5>
-                          <p>Photography</p>
+                        <div id="text">
+                          <h5>Kwitter</h5>
+                          <p>A social networking app that allows users to register, login, post messages, update profile, view posts from other users, comment on those posts, like and unlike messages e.t.c. Built using React, Redux, Twitter Bootstrap, Component UI</p>
                         </div>
                       </div>
-                      <div className="link-icon"><i className="icon-plus" /></div>
                     </a>
-                  </div>
-                </div> {/* item end */}
-                <div className="columns portfolio-item">
-                  <div className="item-wrap">
-                    <a href="#modal-07" title>
-                      <img alt="" src="images/portfolio/origami.jpg" />
-                      <div className="overlay">
-                        <div className="portfolio-item-meta">
-                          <h5>Origami</h5>
-                          <p>Illustrration</p>
-                        </div>
-                      </div>
-                      <div className="link-icon"><i className="icon-plus" /></div>
-                    </a>
-                  </div>
-                </div> {/* item end */}
-                <div className="columns portfolio-item">
-                  <div className="item-wrap">
-                    <a href="#modal-08" title>
-                      <img alt="" src="images/portfolio/retrocam.jpg" />
-                      <div className="overlay">
-                        <div className="portfolio-item-meta">
-                          <h5>Retrocam</h5>
-                          <p>Web Development</p>
-                        </div>
-                      </div>
-                      <div className="link-icon"><i className="icon-plus" /></div>
-                    </a>
-                  </div>
                 </div>  {/* item end */}
               </div> {/* portfolio-wrapper end */}
             </div> {/* twelve columns end */}

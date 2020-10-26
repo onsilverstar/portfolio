@@ -1,5 +1,44 @@
 import React, { Component } from 'react';
+import axios from 'axios'
+
 export default class Contact extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: '',
+      subject:'',
+      email: '',
+      message: '',
+      sent: false
+    }
+  }
+  formSubmit = (e) => {
+    e.preventDefault()
+    const templateId = 'template_id';
+
+	  this.sendFeedback(templateId, {message: this.state.message, from_name: this.state.name, reply_to: this.state.email})
+  
+  }
+  sendFeedback (templateId, variables) {
+    window.emailjs.send(
+      'silvester@2020', templateId,
+      variables
+      ).then(res => {
+        console.log('Email successfully sent!'); this.resetForm()
+      })
+      // Handle errors here however you like, or use a React error boundary
+      .catch(err => console.error('Oh well, you failed. Here some thoughts on the error that occured:', err))
+    }
+  resetForm = () => {
+    this.setState({
+        name: '',
+        message: '',
+        email: '',
+        subject: '',
+        sent: true
+
+    })
+}
   render() {
     return (
       <React.Fragment>
@@ -10,80 +49,36 @@ export default class Contact extends Component {
             <h1><span>Get In Touch.</span></h1>
           </div>
           <div className="ten columns">
-            <p className="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-              eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-              voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+            <p className="lead">
+              Contact me!
             </p>
           </div>
         </div>
         <div className="row">
           <div className="eight columns">
             {/* form */}
-            <form action method="post" id="contactForm" name="contactForm">
-              <fieldset>
+            <form id="contactForm">
                 <div>
                   <label htmlFor="contactName">Name <span className="required">*</span></label>
-                  <input type="text" defaultValue size={35} id="contactName" name="contactName" />
+                  <input type="text" id="contactName" name="contactName" onChange={e => this.setState({ name: e.target.value})} value={this.state.name}/>
                 </div>
                 <div>
                   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-                  <input type="text" defaultValue size={35} id="contactEmail" name="contactEmail" />
+                  <input type="text" id="contactEmail" name="contactEmail" onChange={e => this.setState({ email: e.target.value})} value={this.state.email} />
                 </div>
                 <div>
                   <label htmlFor="contactSubject">Subject</label>
-                  <input type="text" defaultValue size={35} id="contactSubject" name="contactSubject" />
+                  <input type="text" id="contactSubject" name="contactSubject" onChange={e => this.setState({ subject: e.target.value})} value={this.state.subject}/>
                 </div>
                 <div>
                   <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                  <textarea cols={50} rows={15} id="contactMessage" name="contactMessage" defaultValue={""} />
+                  <textarea cols={50} rows={15} id="contactMessage" name="contactMessage" onChange={e => this.setState({ message: e.target.value})} value={this.state.message}/>
                 </div>
                 <div>
-                  <button className="submit">Submit</button>
-                  <span id="image-loader">
-                    <img alt="" src="images/loader.gif" />
-                  </span>
+                  <button onClick={ (e) => this.formSubmit(e)} >Send Message!</button>
                 </div>
-              </fieldset>
             </form> {/* Form End */}
-            {/* contact-warning */}
-            <div id="message-warning"> Error boy</div>
-            {/* contact-success */}
-            <div id="message-success">
-              <i className="fa fa-check" />Your message was sent, thank you!<br />
-            </div>
           </div>
-          <aside className="four columns footer-widgets">
-            <div className="widget widget_contact">
-              <h4>Address and Phone</h4>
-              <p className="address">
-                Jonathan Doe<br />
-                1600 Amphitheatre Parkway <br />
-                Mountain View, CA 94043 US<br />
-                <span>(123) 456-7890</span>
-              </p>
-            </div>
-            <div className="widget widget_tweets">
-              <h4 className="widget-title">Latest Tweets</h4>
-              <ul id="twitter">
-                <li>
-                  <span>
-                    This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                    Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-                    <a href="#">http://t.co/CGIrdxIlI3</a>
-                  </span>
-                  <b><a href="#">2 Days Ago</a></b>
-                </li>
-                <li>
-                  <span>
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                    eaque ipsa quae ab illo inventore veritatis et quasi
-                    <a href="#">http://t.co/CGIrdxIlI3</a>
-                  </span>
-                  <b><a href="#">3 Days Ago</a></b>
-                </li>
-              </ul>
-            </div>
-          </aside>
         </div>
       </section>
       </React.Fragment>
