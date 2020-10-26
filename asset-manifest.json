@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/onsilverstar.github.io/portfolio/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/onsilverstar.github.io/portfolio/static/js/main.cfe71620.chunk.js",
+    "main.js.map": "/onsilverstar.github.io/portfolio/static/js/main.cfe71620.chunk.js.map",
+    "runtime-main.js": "/onsilverstar.github.io/portfolio/static/js/runtime-main.fa7c9c3e.js",
+    "runtime-main.js.map": "/onsilverstar.github.io/portfolio/static/js/runtime-main.fa7c9c3e.js.map",
+    "static/js/2.a8aed7a3.chunk.js": "/onsilverstar.github.io/portfolio/static/js/2.a8aed7a3.chunk.js",
+    "static/js/2.a8aed7a3.chunk.js.map": "/onsilverstar.github.io/portfolio/static/js/2.a8aed7a3.chunk.js.map",
+    "static/js/3.f847bc10.chunk.js": "/onsilverstar.github.io/portfolio/static/js/3.f847bc10.chunk.js",
+    "static/js/3.f847bc10.chunk.js.map": "/onsilverstar.github.io/portfolio/static/js/3.f847bc10.chunk.js.map",
+    "index.html": "/onsilverstar.github.io/portfolio/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/onsilverstar.github.io/portfolio/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.a8aed7a3.chunk.js.LICENSE.txt": "/onsilverstar.github.io/portfolio/static/js/2.a8aed7a3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fa7c9c3e.js",
+    "static/js/2.a8aed7a3.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.cfe71620.chunk.js"
+  ]
+}
